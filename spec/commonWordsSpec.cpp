@@ -64,6 +64,5 @@ namespace spec
 			char **res = commonWords(str1, str2);
 			Assert::IsTrue(compare(expected, 2, res), L"Common Words positive check failed.", LINE_INFO());
 		}
-
 	};
 }
